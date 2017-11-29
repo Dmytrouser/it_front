@@ -5,49 +5,200 @@
 
 p {
 	color:black;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 a {
-  font-size: 20px
+  font-size: 15px;
 }
 
-.grace {
-	color: blue;
-}
-
-.fa {
-	padding: 2px;
-}
-
-.custom_style img {
-	height: 110px;
-	width: 110px;
+.col-md-4_image img {
+	height: 120px;
+	width: 120px;
 	border-radius: 70px;
+	display: block;
+    margin: auto;
 }
  
-.fa:hover {
-    color: red;
-}
-
-.jumbotron {
+.content-begin {
 	background-image: url('kosmach.jpg');
 	background-repeat:no-repeat;
     background-size: 100% 100%; 
-    box-shadow:0 0 0 200px rgba(120, 120, 120, 0.8) inset;
+    box-shadow:0 0 0 200px rgba(120, 120, 120, 0.6) inset;
 }
 
-.display-3, .text {
+.title, .text {
 	color: white;
     z-index: 1;
 }
 
-.btn-secondary { 
+.button-learn { 
 	z-index: 1; 
 }
 
+.content-image {
+	  height: 340px;
+	  display: block;
+      margin: auto;
+      width: 50%;
+	&_foto_1 img {
+		height: 320px;
+        width: 270px;
+        position: absolute;
+        z-index: -1;
+	};
+	&_foto_2 img {
+		height: 260px;
+        width: 410px;
+        margin-left: 230px;
+        padding-top: 30px;
+	}
+}
+
+.content-image-2 {
+	  display: block;
+      margin: auto;
+      width: 75%;
+	&_foto_3 img, 
+	&_foto_4 img,
+	&_foto_5 img,
+	&_foto_6 img {
+		height: 280px;
+        width: 200px;
+	}
+}
+
+.separate-img {
+	display: inline;
+}
+
+.hi-icon {
+	padding: 2px;
+}
+
+.fa:hover {
+    color: red;
+}
+
+.footer {
+	background-color: rgba(192,192,192,0.6);
+    &_contacty {
+	    padding-left: 60px;
+	    padding-top: 20px; 
+    };
+    &_icon {
+    	padding: 20px;
+    	padding-top: 20px; 
+    }
+}
+
+h2, .content-image-2_p {
+    text-align: center;
+}
+
+.content-image-3 {
+	  height: 340px;
+	  display: block;
+      margin: auto;
+      width: 50%;
+      padding-top: 30px;
+	&_foto_1 img {
+		height: 320px;
+        width: 270px;
+        position: absolute;
+        z-index: -1;
+	};
+	&_foto_2 {
+	    background-image: url('01.png');
+	    background-repeat:no-repeat;
+		background-color: white;
+		background-size: 120px 90px;
+		height: 260px;
+        width: 290px;
+        padding: 40px;        
+	}
+}
+
+.text-2 {
+		font-size: 7px;
+}
+
+.lines-in-block {
+    margin-left: 45%;
+	&_down img {
+	    position: absolute;
+	    width: 23%;
+    }
+}
+
+.content-image-block {
+	  background-color: rgba(192,192,192,0.1);
+	  height: 480px;
+	  margin-top: 40px;
+}
+
+.content-before-columns {
+	&_img-02 img {
+		width: 12%;
+		position: absolute;
+	    left: 44%;
+	    z-index: -1;
+	};
+	&_head-3 {
+		text-align: center;
+		padding-top: 60px;
+	};
+	&_text-3 {
+		text-align: center;
+	}
+}
+
+.content-image-columns {
+	  display: block;
+      margin: auto;
+      width: 75%;
+    &_column-1 {
+    	height: 250px;
+    	background-color: white;
+    	width: 50px;
+    }
+}
+
+.head-6 {
+  font-size: 14px;
+  text-align: center;
+}
+
+.column-text {
+	font-size: 7px;
+	width: 70%;
+	text-align: center;
+}
+
+.image-red {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
 
 
+/*.line-orange img {
+   position: relative;
+   top: 38px;
+   width: 139%;
+   left: -20%;
+}
 
+.line-violet img {
+	position: relative;
+	top: 38px;
+	width: 139%;
+	left: -28px;
+}
 
-
+.image-orange, .image-violet {
+	display: block;
+    margin: auto;
+    width: 50%;
+}
+*/
