@@ -154,31 +154,47 @@ h2, .content-image-2_p {
 }
 
 .content-image-columns {
-	  display: block;
-      margin: auto;
-      width: 75%;
-    &_column-1 {
+	    width: 60%;
     	height: 250px;
+    	margin: auto;
+    &_columns-all {
+
     	background-color: white;
-    	width: 50px;
+    	padding-top: 30px;
+    };
+    &_column-1 {
+    	border-bottom: 4px solid;
+    	border-image: url(line.png) 10 round;
+    };
+    &_column-2 {
+    	border-bottom: 4px solid;
+    	border-image: url(line.copy.png) 10 round;
+    };
+    &_column-3 {
+    	border-bottom: 4px solid;
+    	border-image: url(line.copy2.png) 10 round;
+    };
+    &_column-4 {
+    	border-bottom: 4px solid;
+    	border-image: url(line.copy3.png) 10 round;
     }
 }
 
 .head-6 {
   font-size: 14px;
   text-align: center;
+  padding-top: 20px;
 }
 
 .column-text {
-	font-size: 7px;
-	width: 70%;
+	font-size: 9px;
 	text-align: center;
+	padding-top: 20px;
 }
 
-.image-red {
+.image-box img {
     display: block;
     margin: auto;
-    width: 50%;
 }
 
 
